@@ -1,0 +1,25 @@
+/* src/components/Flights.css */
+
+.flight-detail-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .flight-detail-container h2 {
+    text-align: center;
+    color: #004080;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+  }
+  
+  .flight-detail-container p {
+    font-size: 1rem;
+    line-height: 1.6;
+   
+  }  

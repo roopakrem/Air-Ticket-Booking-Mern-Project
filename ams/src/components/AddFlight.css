@@ -1,0 +1,41 @@
+.add-flight {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-flight h2 {
+    text-align: center;
+    color: #333;
+}
+
+.add-flight form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.add-flight input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.add-flight button {
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-flight button:hover {
+    background-color: #0056b3;
+}

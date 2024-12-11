@@ -1,0 +1,42 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    background-color: #007BFF; /* Bootstrap primary color */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar h2 {
+    margin: 0;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar ul li {
+    display: inline;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .logout-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .logout-button:hover {
+    text-decoration: underline;
+  }
+  

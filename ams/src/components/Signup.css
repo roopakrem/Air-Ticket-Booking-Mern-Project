@@ -1,0 +1,89 @@
+/* src/components/Signup.css */
+
+/* Image Upload Styles */
+.image-upload__preview {
+  width: 100%;
+  height: 150px; /* Adjust height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #f0f0f0;
+}
+
+.image-upload__preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the preview area without stretching */
+}
+
+.image-upload.center {
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* Other existing CSS */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: #f5f5f5;
+  overflow-y: auto;
+}
+
+.signup-box {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.signup-box h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #333333;
+}
+
+.signup-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.signup-box input:focus {
+  outline: none;
+  border-color: #2c3e50;
+}
+
+.signup-box button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2c3e50;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-box button:hover {
+  background-color: #34495e;
+}
+
+.error {
+  color: #e74c3c;
+  font-size: 0.9rem;
+  margin-top: -8px;
+  margin-bottom: 8px;
+  text-align: left;
+}
